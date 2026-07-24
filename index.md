@@ -66,7 +66,7 @@ Unitypackageファイルをインポート後、「Assets\SamenoLab\VRCPourOverC
 またコーヒー豆の情報を保存するオブジェクトとして、`Config`という名称のオブジェクトが存在します。
 `PourOverCoffee` および `Config`は、**シーン内に必ず1つだけ存在するように配置してください**。
 
-各種スキンPrefabは複数配置して組み合わせることができますが、本アセットに含まれる「`Base Set`」内部のオブジェクトは、`PourOverCoffee`の子オブジェクトとして配置する必要があります。
+各種スキンPrefabは複数配置して組み合わせることができますが、本アセットに含まれる「`Base Set`」内部のオブジェクトは、`PourOverCoffee`の子オブジェクトとして配置する必要があります。また、「`Base Set`」の**名前を変更しないでください**。
 複製後のオブジェクトが`PourOverCoffee`の配下に配置されていることをご確認ください。
 
 `PourOverCoffee`の外に配置された「`Base Set`」のオブジェクトは、システムから正しく認識されず、設定の反映などが正常に動作しない場合があります。
@@ -77,11 +77,12 @@ Unitypackageファイルをインポート後、「Assets\SamenoLab\VRCPourOverC
 - スキンPrefabは複数配置できます。
 - 「`Config`」、「`Base Set`」のPrefabを`PourOverCoffee`の子オブジェクトにしてください。
 - `Config`はシステムが使用するオブジェクトです。通常は移動、削除を行わないでください。
+- `Base Set`は名前を変更しないでください。`Base Set`の内部のオブジェクトは名前を変更しても問題ありません。
 
 
 ### 3. オブジェクトの複製
 
-「`Base Set`」または「Color - xxx」のオブジェクトは「ctrl+D」で複製可能です。
+「`Base Set`」または「Color - xxx」の内部のオブジェクトは「ctrl+D」で複製可能です。
 
 複製後のオブジェクトは、特に設定不要でそのまま使用できます。
 
