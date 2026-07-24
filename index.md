@@ -46,7 +46,7 @@ Unitypackageファイルをインポート後、「Assets\SamenoLab\VRCPourOverC
 
 ### 手順(2)
 お好みで「Assets\SamenoLab\VRCPourOverCoffee\DripSet - Quick Start」にある「Color - xxx」フォルダから、
-お好みのスキンのPrefabを、手順(1)で先に設置した「PourOverCoffee」の配下に配置します。
+お好みのスキンのPrefabを、Sceneに配置します。
 
 以上でセットアップは完了です。
 
@@ -59,54 +59,16 @@ Unitypackageファイルをインポート後、「Assets\SamenoLab\VRCPourOverC
 `PourOverCoffee` および `Config`は、**シーン内に必ず1つだけ存在するように配置してください**。
 
 
-各種スキンPrefabは複数配置して組み合わせることができますが、本アセットに含まれるケトル、ドリッパー、サーバーなどのオブジェクトは、すべて`PourOverCoffee`の子オブジェクトとして配置する必要があります。
+各種スキンPrefabは複数配置して組み合わせることができますが、本アセットに含まれる「Base Set」内部のオブジェクトは、すべて`PourOverCoffee`の子オブジェクトとして配置する必要があります。
 
-**正しい配置例**
+`PourOverCoffee`の外に配置された「Base Set」のオブジェクトは、システムから正しく認識されず、設定の反映などが正常に動作しない場合があります。
 
-PourOverCoffee
-
-├─ Config
-
-├─ Base Set
-
-├─ Color - Silver Steel
-
-│  ├─ Kettle
-
-│  ├─ Dripper
-
-│  └─ ...
-
-├─ Color - Midnight Roast
-
-│  ├─ Kettle
-
-│  ├─ Dripper
-
-│  └─ ...
-
-└─ Color - Amber Sunset
-
-
-**誤った配置例**
-
-PourOverCoffee
-├─ Config
-├─ Base Set
-└─ Color - Silver Steel
-
-Color - Midnight Roast
-Color - Amber Sunset
-
-このように`PourOverCoffee`の外に配置されたPrefabは、システムから正しく認識されず、設定の反映などが正常に動作しない場合があります。
-
-<img src="./source/s1.png" width="800px">
 
 **重要**
 
 - `PourOverCoffee`はシーン内に1つだけ配置します。
 - スキンPrefabは複数配置できます。
-- すべてのスキンPrefabを`PourOverCoffee`の子オブジェクトにしてください。
+- 「Config」、「Base Set」のPrefabを`PourOverCoffee`の子オブジェクトにしてください。
 - `Config`はシステムが使用するオブジェクトです。通常は移動、削除を行わないでください。
 
 
@@ -121,7 +83,7 @@ Color - Amber Sunset
 非アクティブなオブジェクトは、デフォルトでは「Editor Only」（シーン上では見えるもののワールドにアップロードされない）状態になっています。
 非アクティブなオブジェクトをワールドで使用したい場合は、「Editor Only」から「UnTagged」に変更してアップロードしてください。
 
-<img src="./source/s2.png" width="800px">
+<img src="./source/s1.png" width="800px">
 
 # ギミックの仕様と設定
 ## グラインダー
