@@ -303,7 +303,7 @@ VR操作でも、一定の湯量をキープすることが難しい場合はUSE
 
 
 ※全角入力について、UnityのScene上では、UI中の全角文字は文字化けされて見えますが、VRChat上では正しく描画されます。
-Unity上で全角文字の表示を確認したい場合は、UnityのProject Settingsより全角文字対応のフォントデータをUnityに登録してください。
+Unity上で全角文字の表示を確認したい場合は、UnityのProject Settingsより全角文字対応のフォントデータを登録してください。
 
 参考：Project Settingsへのフォント登録方法（外部リンク）
 
