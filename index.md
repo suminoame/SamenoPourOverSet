@@ -302,12 +302,12 @@ VR操作でも、一定の湯量をキープすることが難しい場合はUSE
 - 季節限定　オータムブレンド
 
 
-※全角入力について、Unity上では初期設定では文字化けされて見えますが、VRChat上では正しく描画されます。
-Unity上で全角文字を確認したい場合は、UnityのProject Settingsより全角文字対応のフォントデータをUnityに登録してください。
+※全角入力について、UnityのScene上では、UI中の全角文字は文字化けされて見えますが、VRChat上では正しく描画されます。
+Unity上で全角文字の表示を確認したい場合は、UnityのProject Settingsより全角文字対応のフォントデータをUnityに登録してください。
 
 参考：Project Settingsへのフォント登録方法（外部リンク）
 
-[TextMeshPro in VRChat](https://hai-vr.notion.site/TextMeshPro-in-VRChat-91561782adea47a78569cec641fd5ee9)
+[TextMeshPro in VRChat - Knowledge Index](https://hai-vr.notion.site/TextMeshPro-in-VRChat-91561782adea47a78569cec641fd5ee9)
 
 
 **・豆の種類**
