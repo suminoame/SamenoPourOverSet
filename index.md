@@ -7,7 +7,7 @@
 
 ------
 
-更新履歴 / Release
+更新履歴 / Release Log
 
 - 2026/07/28: Manual v1.0.1 豆情報およびレシピデータの登録方法を追加。 
 - 2026/07/24: Manual v1.0.0 Released. 
@@ -15,6 +15,7 @@
 <img src="./source/p0.png" width="420px">
 
 # Index
+- 事前準備
 - クイックスタート
   - [1. 導入](https://suminoame.github.io/SamenoPourOverSet/#1-%E5%B0%8E%E5%85%A5)
   - [2. 改変の手引き](https://suminoame.github.io/SamenoPourOverSet/#2-%E6%94%B9%E5%A4%89%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D)
@@ -31,6 +32,7 @@
   - [マグカップ](https://suminoame.github.io/SamenoPourOverSet/#%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97)
   - [キャニスター（豆、粉）](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%AD%E3%83%A3%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%BC%E8%B1%86%E7%B2%89)
   - [コーヒーカード](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)
+- お問い合わせ
 
 # 事前準備
 
@@ -48,9 +50,8 @@ VCC経由でインストールされるU#以外のバージョンは動作サポ
 
 本商品をインストールする前に、以下URLまたはVCCより最新の「liltoon」をプロジェクトにインポートしてください。
 
-liltoon
+[liltoon](https://lilxyzw.booth.pm/items/3087170)
 
-https://lilxyzw.booth.pm/items/3087170
 
 # クイックスタート
 
