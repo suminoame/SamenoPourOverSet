@@ -14,6 +14,24 @@
 
 <img src="./source/p0.png" width="420px">
 
+# Index
+- クイックスタート
+  - [1. 導入](https://suminoame.github.io/SamenoPourOverSet/#1-%E5%B0%8E%E5%85%A5)
+  - [2. 改変の手引き](https://suminoame.github.io/SamenoPourOverSet/#2-%E6%94%B9%E5%A4%89%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D)
+  - [3. オブジェクトの複製](https://suminoame.github.io/SamenoPourOverSet/#3-%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E8%A4%87%E8%A3%BD)
+- ギミックの仕様と設定
+  - [グラインダー](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC)
+  - [メジャースプーン](https://suminoame.github.io/SamenoPourOverSet/#%E3%83%A1%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B9%E3%83%97%E3%83%BC%E3%83%B3)
+  - [ケトル](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%B1%E3%83%88%E3%83%AB)
+  - [ドリッパー](https://suminoame.github.io/SamenoPourOverSet/#%E3%83%89%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC)
+  - [ペーパーフィルター](https://suminoame.github.io/SamenoPourOverSet/#%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC)
+  - [ガラスサーバー](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%AC%E3%83%A9%E3%82%B9%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC)
+  - [デジタルスケール](https://suminoame.github.io/SamenoPourOverSet/#%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB)
+  - [コーヒーカップ](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%AB%E3%83%83%E3%83%97)
+  - [マグカップ](https://suminoame.github.io/SamenoPourOverSet/#%E3%83%9E%E3%82%B0%E3%82%AB%E3%83%83%E3%83%97)
+  - [キャニスター（豆、粉）](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%AD%E3%83%A3%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%BC%E8%B1%86%E7%B2%89)
+  - [コーヒーカード](https://suminoame.github.io/SamenoPourOverSet/#%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)
+
 # 事前準備
 
 本パッケージを使用する際は、Unity 2022.3.22f1のプロジェクトをご用意ください。
@@ -284,13 +302,11 @@ VR操作でも、一定の湯量をキープすることが難しい場合はUSE
 
 
 ※全角入力について、Unity上では初期設定では文字化けされて見えますが、VRChat上では正しく描画されます。
-
 Unity上で全角文字を確認したい場合は、UnityのProject Settingsより全角文字対応のフォントデータをUnityに登録してください。
 
 参考：Project Settingsへのフォント登録方法（外部リンク）
+
 [TextMeshPro in VRChat](https://hai-vr.notion.site/TextMeshPro-in-VRChat-91561782adea47a78569cec641fd5ee9)
-
-
 
 
 **・豆の種類**
